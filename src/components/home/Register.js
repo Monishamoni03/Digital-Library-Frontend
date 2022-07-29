@@ -134,18 +134,4 @@ class Register extends React.Component {
         }
     }
 
-// export default Register;
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
-
-// function mapState(state) {
-//     const { registering } = state.registration;
-//     return { registering };
-// }
-
-// const actionCreators = {
-//     register: userActions.register
-// }
-
-// const connectedRegisterPage = connect(mapState, actionCreators)(Register);
-// export { connectedRegisterPage as Register };
-
